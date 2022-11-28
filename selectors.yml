@@ -1,0 +1,29 @@
+title:
+    css: 'h1.a-size-large span.a-size-large'
+    xpath: null
+    type: Text
+reviews:
+    css: 'div.a-expander-content > span'
+    xpath: null
+    multiple: true
+    type: Text
+price:
+    css: 'div.centerColAlign span.a-price-whole'
+    xpath: null
+    type: Text
+rating:
+    css: 'div.centerColAlign span.reviewCountTextLinkedHistogram a.a-popover-trigger'
+    xpath: null
+    type: Text
+ratings:
+    css: 'div.centerColAlign span.a-declarative span.a-size-base'
+    xpath: null
+    type: Text
+featuredBullets:
+    css: 'div.centerColAlign div.a-section.a-spacing-medium'
+    xpath: null
+    type: Text
+images:
+    css: '.imgTagWrapper img'
+    type: Attribute
+    attribute: data-a-dynamic-image
